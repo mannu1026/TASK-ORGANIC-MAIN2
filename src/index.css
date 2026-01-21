@@ -1,0 +1,54 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+svg{
+    display: none;
+}
+
+.animate-spin,.h{
+    display: block;
+}
+
+.p-datatable .p-column-header {
+  text-align: center;
+  width: 100%;
+}
+
+.custom-datatable-rows .p-datatable-tbody > tr {
+  border-bottom: 1px solid #e0e0e0; 
+  height: 80px;
+}
+
+.custom-datatable-rows .p-datatable-tbody > tr:last-child {
+  border-bottom: none;
+}
+
+.p-datatable .p-column-header-content {
+  background-color: #f3f4f6; 
+  color: #111827;
+  font-weight: 600; 
+}
+
+
+.p-datatable .p-column-header-content .flex-grow {
+    text-align: center;
+    background-color: gray;
+}
+
+.p-column-header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-datatable .p-column-header {
+  vertical-align: middle;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.p-selection-column .p-column-header-content {
+  justify-content: center;
+}
